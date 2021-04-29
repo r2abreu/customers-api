@@ -1,0 +1,27 @@
+{
+  "name": "customers-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "dev:start": "clear; nodemon --exec babel-node index.js"
+  },
+  "author": "Arturo Abreu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "mongoose-unique-validator": "^2.0.3",
+    "slugify": "^1.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "nodemon": "^2.0.7"
+  }
+}
